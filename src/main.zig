@@ -39,6 +39,6 @@ pub fn main() !void {
     }
 
     std.debug.print("{}\n", .{value.b});
-    //
-    std.debug.print("{}\n", .{value.b});
+    // Hello from test
+    std.debug.print("Hello from test{}\n", .{value.b});
 }
