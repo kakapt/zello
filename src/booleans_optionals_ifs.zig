@@ -50,7 +50,7 @@ pub fn main() !void {
     // You can write a simple `if` as a one liner.
     if (t) std.debug.print("It's {}!\n", .{t});
 
-    // You can also use an `if`   as a one liner.
+    // You can also use an `if` as a one liner.
     // Zig's version of the ternary operator ?:
     the_byte = if (maybe_byte) |b| b else 0;
     // `orelse` is a convenient shortcut for the above line/

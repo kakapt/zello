@@ -1,0 +1,10 @@
+{x} hex
+{X} HEX
+{d} numeric
+{c} byte -> ascii
+{b} binary
+{o} octal
+{*} pointer
+{e} floats in scientific notation
+{s} strings
+{!} error union

@@ -39,7 +39,7 @@ pub fn main() !void {
     std.debug.print("a7[1][0] == {}\n", .{a7[1][0]});
     // std.debug.print("a7[a7.len] == {}\n", .{a7[a7.len]});
 
-    // Sentianal terminated arrays use [N:V]T syntax where N is the length
+    // Sentinel terminated arrays use [N:V]T syntax where N is the length
     // and V is the sentinal value of type T
     // In a sentinel terminated array, you can access array which index = len
     const a8: [2:0]u8 = .{ 1, 2 };
